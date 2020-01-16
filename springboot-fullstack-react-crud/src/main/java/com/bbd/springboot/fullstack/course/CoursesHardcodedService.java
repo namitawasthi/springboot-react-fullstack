@@ -13,7 +13,6 @@ public class CoursesHardcodedService {
 
 	static {
 		courses.add(new Course(++idCounter, "Java", "Tutorial for Java 8"));
-		courses.add(new Course(++idCounter, "Angular", "Tutorial for Angular"));
 		courses.add(new Course(++idCounter, "React", "Tutorial for React"));
 		courses.add(new Course(++idCounter, "HTML", "Tutorial for HTML5 & CSS"));
 		courses.add(new Course(++idCounter, "Kubernetes", "Tutorial for kubernets"));
