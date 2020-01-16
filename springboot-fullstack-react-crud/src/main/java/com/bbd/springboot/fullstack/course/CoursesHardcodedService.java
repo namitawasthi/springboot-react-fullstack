@@ -17,6 +17,8 @@ public class CoursesHardcodedService {
 		courses.add(new Course(++idCounter, "React", "Tutorial for React"));
 		courses.add(new Course(++idCounter, "HTML", "Tutorial for HTML5 & CSS"));
 		courses.add(new Course(++idCounter, "Kubernetes", "Tutorial for kubernets"));
+		courses.add(new Course(++idCounter, "Linux", "Tutorial for Linux"));
+		courses.add(new Course(++idCounter, "Data Science", "Tutorial for Data Science"));
 	}
 
 	public List<Course> findAll() {
